@@ -1,7 +1,7 @@
 var FeedParser = require('feedparser');
 var request = require('request'); // for fetching the feed 
 
-function feed(url,callback){
+module.exports = function(url,callback){
 	var req = request(url);
 	var feedparser = new FeedParser();
 	 
@@ -34,8 +34,3 @@ function feed(url,callback){
 		callback(null,items);
 	});
 }
-
-
-feed('http://feeds.reuters.com/reuters/businessNews',function(err,res){
-	console.log('done',res[0]);
-});
