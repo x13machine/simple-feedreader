@@ -1,9 +1,27 @@
 {
-	"name": "simple-feedreader",
-	"version": "1.0.0",
-	"main": "index.js",
-	"dependencies": {
-		"request": "2.81.x",
-		"feedparser": "2.2.x"
-	}
+  "name": "simple-feedreader",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "request": "2.81.x",
+    "feedparser": "2.2.x"
+  },
+  "description": "Gets rss/atom feeds easily",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/x13machine/simple-feedreader.git"
+  },
+  "keywords": [
+    "rss",
+    "feed"
+  ],
+  "author": "Googolplexking",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/x13machine/simple-feedreader/issues"
+  },
+  "homepage": "https://github.com/x13machine/simple-feedreader#readme"
 }
