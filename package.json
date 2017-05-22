@@ -1,7 +1,7 @@
 {
 	"main": "index.js",
-	"dependencies":[
+	"dependencies": {
 		"request": "2.81.x",
 		"feedparser": "2.2.x"
-	]
+	}
 }
