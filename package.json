@@ -1,5 +1,5 @@
 {
-	"name": "Simple FeedReader",
+	"name": "Googolplexking",
 	"main": "index.js",
 	"dependencies": {
 		"request": "2.81.x",
