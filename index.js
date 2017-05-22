@@ -17,7 +17,7 @@ module.exports = function(url,callback){
 		this.pipe(feedparser);
 	});
 	 
-	feedparser.on('error', function (error) {
+	feedparser.on('error', function (err) {
 		callback(err);
 	});
 	
